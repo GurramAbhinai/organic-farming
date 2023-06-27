@@ -1,0 +1,869 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+    background:url('./images/agriculture\ img2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: -30px;
+    min-height: 400px;
+    margin-right: -250px;
+    font-size: 17px;
+    padding-left: 250px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.main{
+    max-width: 1200px;
+    margin: 10px;
+}
+
+.title h1{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+
+}
+
+.title h1{
+    color: #000;
+    font-size: 50px;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: bold;
+}
+
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+.main ul li:hover  .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 12px;
+    margin-left: -200px;
+
+}
+
+
+.main ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+}
+
+.main ul li:hover  .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+
+
+}
+
+.side{
+    padding-top: 20px;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.buttons li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    background-color: #000000;
+    margin-right: 30px;
+    width: 150px;
+    line-height: 60px;
+  }
+
+.about{
+    display: flex;
+    justify-content: end;
+    
+} 
+.about1{
+    display: flex;
+    justify-content: start;
+    color: rgb(16, 212, 52);
+    padding: 30px;
+}
+
+.about3{
+    width: 10%;
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 40px;
+    width: 600px;
+}
+.about0{
+        background-color: rgb(247, 242, 187);
+        color: rgb(255, 0, 0);
+        padding: 20px;
+        font-weight: bold;
+        font-size: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+
+.about2{
+    float: right;
+    padding-right:25px ;
+    width: -10%;
+    height: -10%;
+    padding-top: -10px;
+}
+.boxer{
+    width: 350px;
+    height: auto;
+    background-color: rgb(215, 244, 28);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 6%;
+    margin-bottom: 20px;
+    
+
+}
+.img1{
+    width: 100%;
+    height: 250px;
+}
+.boxer{
+    text-align: left;
+    padding: 10px;
+}
+.c1txt{
+    text-align: center;
+    font-weight: bolder;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.faq h1{
+    text-align: center;
+    font-weight: bolder;
+    color: #f6360b;
+    padding-left: 150px;
+    
+}
+.faq img{
+    width: 450px;
+    height: 280px;
+    padding-top: -20%;
+    padding-left: 200px;
+}
+.deatail{
+    width: 1450px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(181, 244, 244);
+    cursor: pointer;
+    margin: 10px;
+}
+.faq{
+    width: 100%;
+    height: 100%s;
+    background-color: lightgreen;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: -30px;
+    min-height: 400px;
+    margin-right: -250px;
+    font-size: 17px;
+    padding-left:0px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+ul li.active a{
+    background-color: #000;
+    color: #fff;
+}
+
+.faq2{
+    max-width: 1200px;
+    margin: 10px;
+}
+
+.title h1{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+
+}
+
+.title h1{
+    color: #000;
+    font-size: 50px;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: bold;
+}
+
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+.faq2 ul li:hover  .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 12px;
+    margin-left: -200px;
+
+}
+
+
+.faq2 ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+}
+
+.faq2 ul li:hover  .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+
+
+}
+.slider{
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.slide-track{
+    display: flex;
+    width: calc(250px  * 18);
+    animation: scroll 40s linear infinite;
+
+}
+
+.slide-track:hover {
+    animation-play-state: paused;
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 9));
+  }
+}
+.slide{
+    height: 10px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    perspective: 100px;
+}
+img{
+    width: 100%;
+    transition: transform 1%;
+
+}
+.slider::before
+.slider::after{
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+
+}
+.slider::before{
+    left: 0;
+    top: 0;
+}
+.slider::after{
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: -30px;
+    min-height: 400px;
+    margin-right: -250px;
+    font-size: 17px;
+    padding-left: 250px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+ul li.active a{
+    background-color: #000;
+    color: #fff;
+}
+
+.pro2{
+    max-width: 1200px;
+    margin: 10px;
+}
+
+.title h1{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+
+}
+
+.title h1{
+    color: #000;
+    font-size: 50px;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: bold;
+}
+
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+.pro2 ul li:hover  .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 12px;
+    margin-left: -200px;
+
+}
+
+
+.pro2 ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+}
+
+.pro2 ul li:hover  .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+
+
+}
+
+.galler{
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: aquamarine;
+    
+
+}
+
+.galle-track{
+    display: flex;
+    width: calc(250px * 18);
+    animation: scroll 40s linear infinite;
+}
+.galle-track:hover {
+    animation-play-state: paused;
+
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 9));
+    }
+}
+.galle{
+    height: 10px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    perspective: 100px;
+}
+
+img {
+    width: 100%;
+    height: 2200%;
+    transition: transform 1%;
+}
+img:hover {
+    transform: translateZ(20px);
+}
+
+.galler::before,
+.galler::after {
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%,
+    rgba(255,255,255,0) 100%);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+}
+
+.galler::before {
+    left: 0;
+    top: 0;
+}
+.galler::after {
+    right: 0;
+    top: o;
+    transform: rotateZ(180deg);
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: -30px;
+    min-height: 400px;
+    margin-right: -250px;
+    font-size: 17px;
+    padding-left: 250px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+ul li.active a{
+    background-color: #000;
+    color: #fff;
+}
+
+.gal2{
+    max-width: 1200px;
+    margin: 10px;
+}
+
+.title h1{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+
+}
+
+.title h1{
+    color: #000;
+    font-size: 50px;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: bold;
+}
+
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+.gal2 ul li:hover  .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 12px;
+    margin-left: -200px;
+
+}
+
+
+.gal2 ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+}
+
+.gal2 ul li:hover  .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+
+
+}
+.slider{
+    background-color: #f6360b;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: -30px;
+    min-height: 400px;
+    margin-right: -250px;
+    font-size: 17px;
+    padding-left: 250px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+ul li.active a{
+    background-color: #000;
+    color: #fff;
+}
+
+.org2{
+    max-width: 1200px;
+    margin: 10px;
+}
+
+.title h1{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+
+}
+
+.title h1{
+    color: #000;
+    font-size: 50px;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: bold;
+}
+
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+.org2 ul li:hover  .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 12px;
+    margin-left: -200px;
+
+}
+
+
+.org2 ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+}
+
+.org2 ul li:hover  .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+
+}
+
+.orgo{
+    background-color: aquamarine;
+}
+
+.orgo img {
+    width: 450px;
+    height: 280px;
+    padding-top: -20%;
+    padding-left: 200px;
+
+
+}
+.orgo h2{
+    color: #4004e4;
+}
+.orgo h1{
+    color: #f6360b;
+}
+.prod{
+    background-color: greenyellow;
+    height: 100%;
+}
+.pro1 {
+    background-color: greenyellow;
+}
+.organ{
+    background-color: skyblue;
+}
+.gal1{
+    background-color: skyblue;
+}
+.organ h1{
+    color: red;
+}
+.prod h1{
+    color: red;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: -30px;
+    min-height: 400px;
+    margin-right: -250px;
+    font-size: 17px;
+    padding-left: 250px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+ul li.active a{
+    background-color: #000;
+    color: #fff;
+}
+
+.inorg2{
+    max-width: 1200px;
+    margin: 10px;
+}
+
+.title h1{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+
+}
+
+.title h1{
+    color: #000;
+    font-size: 50px;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: bold;
+}
+
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+.inorg2 ul li:hover  .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 12px;
+    margin-left: -200px;
+
+}
+
+
+.inorg2 ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+}
+
+.inorg2 ul li:hover  .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+
+}
+
+.inorgo{
+    background-color: aquamarine;
+}
+
+.inorgo img {
+    width: 450px;
+    height: 280px;
+    padding-top: -20%;
+    padding-left: 200px;
+
+
+}
+.inorgo h1{
+    color:#f6360b ;
+}
+.inorgo h2{
+    color: blue;
+}
+.org1{
+    background-color:aquamarine;
+}
+.inorg{
+    background-color: aquamarine;
+}
+.footer{
+    height:auto;
+    background-color:darkolivegreen;
+    padding:60px 0px 20px 0px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.foot{
+    background-color:darkolivegreen;
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+    padding-bottom: 60px;
+
+
+}
